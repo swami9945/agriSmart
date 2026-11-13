@@ -17,7 +17,11 @@ temp/
 *.log
 
 # Test images
+<<<<<<< HEAD
 test_images/
 
 # Ignore large crop recommendation model
 ml/crop_recommendation/models/random_forest.joblib
+=======
+test_images/
+>>>>>>> 6cad8cfc (Integrate disease prediction with MobileNetV2 and add trained models)
