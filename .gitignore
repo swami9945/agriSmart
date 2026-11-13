@@ -1,0 +1,23 @@
+# Python environments
+.venv/
+.venv312/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Temporary files
+temp/
+*.log
+
+# Test images
+test_images/
+
+# Ignore large crop recommendation model
+ml/crop_recommendation/models/random_forest.joblib

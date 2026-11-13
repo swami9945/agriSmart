@@ -53,7 +53,7 @@ function DiseasePrediction() {
       formData.append("image", file);
 
       const response = await fetch(
-        "http://127.0.0.1:5000/api/disease-prediction",
+          "http://127.0.0.1:5000/api/disease-predict",
         {
           method: "POST",
           body: formData,
