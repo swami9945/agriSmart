@@ -1,3 +1,4 @@
+# Ignore environment variables
 node_modules/
 .venv312/
 venv/
