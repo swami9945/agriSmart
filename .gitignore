@@ -35,3 +35,11 @@ dataset/stylegan2_dataset/
 dataset/PlantVillage/
 dataset/dataset/
 dataset/stylegan2_dataset/
+*.pyc
+.ipynb_checkpoints/
+*.tmp
+dataset/
+*DenseNet121*
+*EfficientNetB0*
+*InceptionV3*
+*ResNet50*
