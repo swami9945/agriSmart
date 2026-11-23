@@ -30,3 +30,8 @@ test_images/
 dataset/PlantVillage/
 dataset/dataset/
 dataset/stylegan2_dataset/
+
+# Datasets
+dataset/PlantVillage/
+dataset/dataset/
+dataset/stylegan2_dataset/
