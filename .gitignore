@@ -1,44 +1,29 @@
-# Python environments
+﻿# Python environments
 .venv/
 .venv312/
+venv/
 
 # Python cache
 __pycache__/
 *.py[cod]
+.ipynb_checkpoints/
 
-# Node modules
+# Node
 node_modules/
 
 # Environment variables
 .env
 
-# Temporary files
+# Temporary files, logs, test images
 temp/
-*.log
-
-# Test images
-<<<<<<< HEAD
-test_images/
-
-# Ignore large crop recommendation model
-ml/crop_recommendation/models/random_forest.joblib
-=======
-test_images/
->>>>>>> 6cad8cfc (Integrate disease prediction with MobileNetV2 and add trained models)
-
-# Datasets
-dataset/PlantVillage/
-dataset/dataset/
-dataset/stylegan2_dataset/
-
-# Datasets
-dataset/PlantVillage/
-dataset/dataset/
-dataset/stylegan2_dataset/
-*.pyc
-.ipynb_checkpoints/
 *.tmp
+*.log
+test_images/
+
+# Datasets (download separately, see README)
 dataset/
+
+# Unused disease models
 *DenseNet121*
 *EfficientNetB0*
 *InceptionV3*
